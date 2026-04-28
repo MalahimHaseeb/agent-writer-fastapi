@@ -60,10 +60,16 @@ fastapi_backend/
 cd fastapi_backend
 ```
 
-2. **Create virtual environment**:
+2. **Create virtual environment** (Linux/Ubuntu):
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+On Windows:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 3. **Install dependencies**:
@@ -74,8 +80,8 @@ pip install -r requirements.txt
 4. **Configure environment variables**:
 ```bash
 cp .env.example .env
-# Edit .env and add your API keys
 ```
+Edit `.env` and add your API keys
 
 5. **Run the server**:
 ```bash
@@ -317,6 +323,17 @@ Run tests with: `pytest`
 - [Pydantic V2 Docs](https://docs.pydantic.dev/latest/)
 - [Google Generative AI Python SDK](https://github.com/google/generative-ai-python)
 - [Tavily Python SDK](https://github.com/torantulino/tavily-python)
+
+## 🌐 Live Demo & Blog Post
+
+- **Live Preview**: https://contentagent.malahim.dev
+- **Read the Full Story**: https://blog.malahim.dev/ai-agents/contentagent-i-built-a-multi-agent-blog-writer-in-a-day
+
+Check out the blog post to learn how this multi-agent blog writer was built in a day!
+
+## 👤 About
+
+Built by [Malahim](https://malahim.dev)
 
 ## 📝 License
 

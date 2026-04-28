@@ -23,7 +23,7 @@ Router → Search (Conditional) → Writer → Critic → Formatter → Output
 ### Project Structure
 
 ```
-fastapi_backend/
+agent-writer-fastapi/
 ├── main.py
 ├── config.py
 ├── logger.py
@@ -59,7 +59,7 @@ fastapi_backend/
 
 1. **Clone and navigate to the backend directory**:
 ```bash
-cd fastapi_backend
+cd agent-writer-fastapi
 ```
 
 2. **Create virtual environment** (Linux/Ubuntu):

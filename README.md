@@ -2,6 +2,8 @@
 
 A FastAPI backend for generating blog posts using AI agents. Combines workflow orchestration with **Gemini AI** for text generation and **Tavily** for web research.
 
+🌐 **[Live Preview](https://contentagent.malahim.dev)** | 📖 **[Read the Blog Post](https://blog.malahim.dev/ai-agents/contentagent-i-built-a-multi-agent-blog-writer-in-a-day)**
+
 ## 📋 Architecture
 
 ### Workflow (Agent Graph)

@@ -335,7 +335,7 @@ Check out the blog post to learn how this multi-agent blog writer was built in a
 
 ## 👤 About
 
-Built by [Malahim](https://malahim.dev)
+Built by [Malahim Haseeb](https://malahim.dev)
 
 ## 📝 License
 

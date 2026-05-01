@@ -317,7 +317,7 @@ Run tests with: `pytest`
 ### Slow responses
 - Gemini generation can take 10-30 seconds
 - Consider adding request timeouts
-- Check API rate limits from dashboard
+- Check API rate limits
 
 ## 📖 Additional Resources
 
